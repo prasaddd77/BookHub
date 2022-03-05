@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_heading"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfile"
+        android:text="@string/name_profile"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:text="@string/contact_no_profile"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:textColor="#42a5f5" />
+    <TextView
+        android:id="@+id/txtEmailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumber"
+        android:text="@string/email_id_profile"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:textColor="#fbc02d"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmailID"
+        android:text = "@string/address_profile"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:textColor="#76ff03"
+        />
+
+</RelativeLayout>
